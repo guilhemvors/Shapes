@@ -20,5 +20,9 @@ public class ButtonClickHandler : MonoBehaviour
 			buttonContainer.IncreaseScore();
 			SetColored(Color.white);
 		}
+		else
+		{
+			buttonContainer.ResetScore();
+		}
 	}
 }

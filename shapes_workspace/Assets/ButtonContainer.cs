@@ -36,6 +36,12 @@ public class ButtonContainer : MonoBehaviour
 		scoreText.text = "" + score;
 	}
 
+	public void ResetScore()
+	{
+		score = 0;
+		scoreText.text = "" + score;
+	}
+
 	private IEnumerator ColorButton()
 	{
 		int random = Random.Range(0, 8);
